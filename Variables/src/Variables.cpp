@@ -2,7 +2,7 @@
 // Name        : Variables.cpp
 // Author      : Nathaniel-Joel Parizi
 // Version     :
-// Copyright   : Your copyright notice
+// Copyright   : -
 // Description : Variable Practice in C++, Ansi-style
 //============================================================================
 
@@ -13,10 +13,13 @@ int main() {
 
 	int numberCats = 5;
 	int numberDogs = 7;
+	int numberAnimals = numberCats + numberDogs;
+
+
 	//flushing the buffer
 	cout << "number of cats: " << numberCats << flush;
 	cout << " and number of dogs: " << numberDogs << endl;
-	cout << "number of both cats and dogs: " << numberCats + numberDogs << endl;
+	cout << "number of both cats and dogs: " << numberAnimals << endl;
 	cout << " " << endl;
 
 	cout << "new dog adopted" << endl;
