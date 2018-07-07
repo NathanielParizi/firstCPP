@@ -14,6 +14,7 @@ int main() {
 	int numberCats = 5;
 	int numberDogs = 7;
 	int numberAnimals = numberCats + numberDogs;
+	int rabbits = 2;
 
 
 	//flushing the buffer
@@ -27,6 +28,16 @@ int main() {
 	numberDogs = numberDogs + 1;
 
 	cout << "new dogs amount: " << numberDogs << endl;
+
+	cout << "multiply rabbits: " << rabbits * 2 << endl;
+	cout << "And more:  " << rabbits * 5 << endl;
+	rabbits*=50;
+
+	cout << "what's left? " << rabbits << endl;
+
+
+
+
 
 	return 0;
 }
